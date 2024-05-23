@@ -1,0 +1,13 @@
+kind: network
+metadata:
+  name: main
+spec:
+  params:
+    project_id: DUMMY
+    network_name: DUMMY
+    subnets:
+      - subnet_name: DUMMY
+        subnet_ip: DUMMY
+        subnet_region: DUMMY
+        subnet_private_access: DUMMY
+        subnet_flow_logs: DUMMY

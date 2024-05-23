@@ -1,0 +1,17 @@
+kind: project
+metadata:
+  name: main
+spec:
+  params:
+    activate_apis:
+      - "compute.googleapis.com"
+      - "container.googleapis.com"
+    billing_account: "DUMMY"
+    create_project_sa: false
+    default_service_account: "keep"
+    disable_services_on_destroy: false
+    folder_id: "DUMMY"
+    labels: {}
+    name: DUMMY
+    org_id: "DUMMY"
+    random_project_id: true

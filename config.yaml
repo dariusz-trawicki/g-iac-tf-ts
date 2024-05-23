@@ -1,0 +1,13 @@
+views:
+  - data:
+      kind: project
+      name: main
+    data_path: examples/hello-cloud/kustomization/overlays/prod/output.yaml
+    dest_path: examples/hello-cloud/envs/prod/project/main.tf
+    template_name: project.tpl
+  - data:
+      kind: network
+      name: main
+    data_path: examples/hello-cloud/kustomization/overlays/prod/output.yaml
+    dest_path: examples/hello-cloud/envs/prod/network/main.tf
+    template_name: network.tpl

@@ -1,0 +1,9 @@
+kind: project
+metadata:
+  name: main
+spec:
+  params:
+    billing_account: 111111-AAAAAA-222222
+    folder_id: "1234567890"
+    name: prod
+    org_id: "666"
